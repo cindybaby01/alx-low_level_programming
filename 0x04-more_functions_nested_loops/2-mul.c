@@ -5,10 +5,8 @@
  * mul - multiply two integers
  * @a: first int
  * @b: second int
- * Return: the multiplication of a and b
+ * Return: the multiplication of a abd b
  */
-
-
 int mul(int a, int b)
 {
 	return (a * b);
