@@ -2,7 +2,7 @@
 
 
 /**
- * main -print fizzbuzz
+ * main - print fizzbuzz
  * Return: Always 0
  */
 int main(void)
@@ -11,7 +11,7 @@ int main(void)
 
 
 	printf("1");
-	for (n = 2; n <= 100; n++)
+	for (n - 2; n <= 100; n++)
 	{
 		printf(" ");
 		if (n % 3 == 0)
