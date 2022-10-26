@@ -1,4 +1,4 @@
- #include "main.h"
+#include "main.h"
 
 
 /**
@@ -7,7 +7,7 @@
  * @s2: string 2
  * Return: the difference in s1 and s2
  */
-int _strcmp(char *s1, chsr *s2)
+int _strcmp(char *s1, char *s2)
 {
 	int i;
 
