@@ -8,7 +8,7 @@
  * @s: pointer to the memory area to be filled
  * @c: character to fill the memory area
  * @n: number of bytes to be filled
- * Return: pointer to be filled memory area @s
+ * Return: pointer to the filled memory @s
  */
 void *_memset(void *s, int c, size_t n)
 {

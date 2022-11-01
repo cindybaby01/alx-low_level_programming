@@ -1,1 +1,1 @@
-- Even more pointers, arrays and strings
+This is a C programming directory
