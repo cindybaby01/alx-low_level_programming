@@ -30,7 +30,7 @@ int find_strlen(char *s)
 
 /**
  * check_palindrome - checks if a string is a palindrome.
- * @S: The string to be checked.
+ * @s: The string to be checked.
  * @len: The length of s.
  * @index: The index of the string to be checked.
  *
@@ -43,7 +43,7 @@ int check_palindrome(char *s, int len, int index)
 		return (1);
 
 
-	if (s[index] == s[len - index -1])
+	if (s[index] == s[len - index - 1])
 		return (check_palindrome(s, len, index + 1));
 
 
@@ -53,10 +53,10 @@ int check_palindrome(char *s, int len, int index)
 
 /**
  * is_palindrome - checks if a string is a palindrome.
- * @S: The string to be checked.
+ * @s: The string to be checked.
  *
- * Return: If the string is a palindrome -1.
- *         If the string is not a palindrome -0.
+ * Return: If the string is a palindrome - 1.
+ *         If the string is not a palindrome - 0.
  */
 int is_palindrome(char *s)
 {
