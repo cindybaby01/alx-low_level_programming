@@ -4,7 +4,7 @@
  * @x: base
  * @y: power
  *
- * Return: the power 
+ * Return: the power
  */
 int _pow_recursion(int x, int y)
 {
