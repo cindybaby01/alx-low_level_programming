@@ -6,7 +6,7 @@
 
 
 /**
- * main - Program that takes in all integer arguments and return the sum
+ * main - Program that takes in all integer arguments and returns the sum
  * @argc: Number of command line arguments
  * @argv: Array name
  * Return: 1 if a non-integer is among the passed in arguments, 0 otherwise
@@ -15,12 +15,12 @@
 
 int main(int argc, char *argv[])
 {
-	inti, j, length, sum;
+	int i, j, length, sum;
 	char *ptr;
 
 
 	if (argc < 2)
-		printf("0\n");
+	printf("0\n");
 	else
 	{
 		sum = 0;
